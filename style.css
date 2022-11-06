@@ -21,6 +21,7 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    justify-content: center;
 }
 
 .body-1 {
@@ -30,16 +31,24 @@ body {
 
 .body-2 {
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.title-2 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .info {
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .body-2 .info div {
-    width: 250px;
+    
 }
 
 .body-3 {
