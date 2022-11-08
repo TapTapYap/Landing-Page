@@ -27,24 +27,36 @@ body {
 .body-1 {
     flex-direction: row;
     display: flex;
+    height: 400px;
+    flex: auto;
+
+    align-items: center;
 }
 
 .body-2 {
     background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    height: 400px;
 }
 
 .title-2 {
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
+    align-items: center;
+    justify-content: center;
 }
 
 .info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
+}
+
+.st1 {
+    align-items: flex-end;
 }
 
 .body-2 .info div {
@@ -53,6 +65,17 @@ body {
 
 .body-3 {
     background-color: #e5e7eb;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.quote {
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .body-4 {
