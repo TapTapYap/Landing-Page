@@ -35,8 +35,7 @@ body {
 
 .body-2 {
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     height: 400px;
 }
 
@@ -44,23 +43,27 @@ body {
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
-    align-items: center;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.info-con {
+    display: flex;
     justify-content: center;
+    gap: 52px;
 }
 
 .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+    max-width: 200px;
 }
 
-.st1 {
-    align-items: flex-end;
+.body-2 img {
+    border-radius: 15px;
+    border: 2px solid #43bee4;
 }
 
-.body-2 .info div {
-    
+.body-2 .info-con .info div {
+    color: #6e6f72;
 }
 
 .body-3 {
@@ -69,15 +72,51 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .quote {
     width: 600px;
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #697485;
+    margin-bottom: 16px;
+}
+
+.sig {
+    text-align: end;
+    width: 600px;
 }
 
 .body-4 {
     background-color: #FFFFFF;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-4 {
+    background-color: #3882f6;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+    display: flex;
+    height: 100px;
+    width: 800px;
+    justify-content: center;
+}
+
+.left-box-4 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-box-4 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
