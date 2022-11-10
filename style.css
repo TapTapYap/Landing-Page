@@ -208,3 +208,12 @@ header a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    font-size: small;
+}
